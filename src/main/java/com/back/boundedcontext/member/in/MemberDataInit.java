@@ -22,7 +22,7 @@ public class MemberDataInit {
         return args -> {
             eventPublisher.publish(
                     new MemberJoinedEvent(
-                            new MemberDto(1)
+                            new MemberDto(2)
                     )
             );
         };
