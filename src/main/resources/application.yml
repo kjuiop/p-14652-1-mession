@@ -13,6 +13,9 @@ spring:
   jackson:
     serialization:
       fail-on-empty-beans: false
+  docker:
+    compose:
+      enabled: false
   kafka:
     producer:
       value-serializer: org.springframework.kafka.support.serializer.JacksonJsonSerializer
